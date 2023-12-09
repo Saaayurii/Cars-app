@@ -1,0 +1,56 @@
+@import 'src/assets/styles/variables';
+
+.form {
+	margin-top: 35px;
+}
+.button {
+	font-size: 15px;
+	width: 90px;
+	height: 36px;
+	border-radius: 50px;
+	background-color: $Blue;
+	color: $White;
+	border: medium none;
+	border-spacing: 0;
+	cursor: pointer;
+	margin-left: 225px;
+	margin-bottom: 20px;
+	&:hover {
+		background-color: rgb(99, 87, 238);
+		opacity: 1;
+	}
+}
+.input {
+	display: flex;
+	align-items: center;
+	text-align: justify;
+	background-color: $White;
+	border: 1px solid transparent;
+	color: $Gray;
+	font-size: 18px;
+	padding: 14px;
+	border-radius: 25px;
+	margin-bottom: 0.7rem;
+	margin-left: 50px;
+	outline: none;
+	width: 80%;
+	box-shadow: $bx-blue;
+	background-color: $White;
+	border: 1px solid transparent;
+	color: $Gray;
+	font-size: 18px;
+	margin-right: 30%;
+	box-shadow: $bx-blue;
+	border-radius: 25px;
+
+	&:first-child {
+		margin-top: 15px;
+	}
+	&:focus {
+		border-color: rgba($dark-blue, 0.3);
+	}
+
+	&::placeholder {
+		color: $Gray;
+	}
+}

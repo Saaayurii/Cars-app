@@ -1,0 +1,32 @@
+@import 'src/assets/styles/variables';
+.wrapper{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+
+	height: 100%;
+	max-width: 560px;
+	width: 100%;
+
+	
+	margin: 0 auto;
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.button{
+	width: 90px;
+  height: 36px;
+	border-radius: 50px;
+	background-color: $Blue;
+	color: $White;
+	border: medium none;
+  border-spacing: 0;
+	cursor: pointer;
+	&:hover{
+		background-color: rgb(99, 87, 238);
+		opacity: 1;
+	}
+}

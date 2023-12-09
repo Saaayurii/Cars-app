@@ -1,0 +1,62 @@
+@import 'src/assets/styles/variables';
+.wrapper{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+
+	height: 100%;
+	max-width: 560px;
+	width: 100%;
+
+	
+	margin: 0 auto;
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.h1{
+	color: $dark-blue;
+	margin: 30px;
+}
+.carItem{
+	width: 400px;
+	background-color: $White;
+	color: $dark-blue;
+	border-radius: 24px;
+	padding: 12px;
+	align-items: center;
+	text-align: center;
+}
+.image{
+	margin-left: 17%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 360px;
+	height: 180px;
+	border-radius: 16px;
+}
+.button{
+	width: 90px;
+	height: 36px;
+	border-radius: 50px;
+	background-color: $Blue;
+	color: $White;
+	border: medium none;
+  border-spacing: 0;
+	cursor: pointer;
+	margin-top: 10px;
+	&:hover{
+		background-color: rgb(99, 87, 238);
+		opacity: 1;
+	}
+}
+.stringName{
+	font-size: 25px;
+	margin-top: 15px;
+	
+}
+.string{
+
+}

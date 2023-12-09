@@ -1,0 +1,82 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "name": "Toyota Camry",
+      "price": 24970,
+      "image": "http://localhost:4200/images/1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Honda Civic",
+      "price": 22545,
+      "image": "http://localhost:4200/images/2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Ford Mustang",
+      "price": 28840,
+      "image": "http://localhost:4200/images/3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Chevrolet Corvette",
+      "price": 62195,
+      "image": "http://localhost:4200/images/4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Tesla Model S",
+      "price": 79990,
+      "image": "http://localhost:4200/images/5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "BMW 3 Series",
+      "price": 43700,
+      "image": "http://localhost:4200/images/6.webp"
+    },
+    {
+      "id": 7,
+      "name": "Audi A4",
+      "price": 40145,
+      "image": "http://localhost:4200/images/7.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Mercedes-Benz C-Class",
+      "price": 43600,
+      "image": "http://localhost:4200/images/8.jpg"
+    },
+    {
+      "name": "McLaren",
+      "price": 300000,
+      "image": "https://static.thairath.co.th/media/Dtbezn3nNUxytg04agCxzzag39REiDhkFK5yvCZ4iYKG4p.jpg",
+      "id": 9
+    },
+    {
+      "name": "ВАЗ-21099",
+      "price": "5000",
+      "image": "https://sportishka.com/uploads/posts/2022-11/1667525932_75-sportishka-com-p-devyatka-mashina-chernaya-krasivo-75.jpg",
+      "id": 10
+    },
+    {
+      "name": "ВАЗ-21099",
+      "price": "5000",
+      "image": "https://stylegarage.ru/uploads/_carbrandall/id899/lada-21099.jpg",
+      "id": 11
+    },
+    {
+      "name": "ВАЗ-2170",
+      "price": "10000",
+      "image": "https://sportishka.com/uploads/posts/2022-11/1667549238_48-sportishka-com-p-chernaya-priora-khetchbek-oboi-48.jpg",
+      "id": 12
+    },
+    {
+      "name": "Гелик",
+      "price": "25000",
+      "image": "https://nelgu.ru/images/easyblog_articles/430/1.jpeg",
+      "id": 13
+    }
+  ]
+}
